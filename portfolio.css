@@ -1,0 +1,466 @@
+/*-----home------*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(khan.jpg.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: cover;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+
+nav {
+    background-color: orange;
+    text-align: right;
+    padding: 20px;
+    font-size: 25px;
+    font-family: arial;
+}
+
+ul {
+    padding: 0px;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    color: saddlebrown;
+    transition: 1s ease;
+}
+
+header {
+    color: white;
+    font-weight: bold;
+    margin-left: 200px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+    animation: mymove 10s;
+}
+
+@keyframes mymove {
+    from {
+        opacity: 0;
+    }
+
+    to {}
+}
+
+p {
+
+    color: black;
+    font-size: 45px;
+
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    background-color: orange;
+
+}
+
+footer {
+    color: white;
+    font-size: 25px;
+    margin-top: 360px;
+    font-weight: bold;
+
+}
+
+/*------aboutme------*/
+
+
+#aboutme {
+    padding: 0px;
+    margin: 0px;
+    background-image: none;
+    background-color: saddlebrown;
+
+}
+
+#aboutme footer {
+    color: white;
+    font-size: 25px;
+    margin-top: 130px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: arial;
+}
+
+img {
+
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+main {
+    margin: 0px;
+}
+
+.p2 {
+    margin-left: 20px;
+    font-size: 30px;
+    animation: animator 5s;
+    color: white;
+    font-family: arial;
+    animation: mymove 5s ease;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: blue;
+    padding: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 20px;
+    bottom: 50px;
+    right: 20px;
+    height: 500px;
+
+
+    font-size: 16px;
+    border-radius: 35px;
+}
+
+article {
+    animation: mymove 1s;
+    text-align: justify;
+}
+
+@keyframes mymove {
+    from {
+        opacity: 0;
+    }
+
+    to {}
+}
+
+a {
+    margin-left: 20px;
+    font-size: 30px;
+    animation: animator 5s;
+    color: orange;
+    font-family: bold;
+    animation: mymove 5s ease;
+    font-family: arial;
+    text-decoration: none;
+    
+}
+
+/*-----skills----*/
+
+#skills {
+    background-image: none;
+    background-color: saddlebrown;
+
+}
+
+.myskills{
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+i {
+    color: orange;
+    font-size: 40px;
+}
+
+.skills {
+    margin-left: 50px;
+    color: white;
+    font-family: arial;
+    
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin: 20px;
+}
+
+.skills li i {
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+
+.bar {
+    background: orange;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span {
+    height: 8px;
+    float: left;
+    background: #FFFFFF;
+}
+
+.html {
+    width: 90%;
+    animation: html 2s;
+}
+
+.css {
+    width: 70%;
+    animation: css 2s;
+}
+
+.seo {
+    width: 60%;
+    animation: seo 2s;
+
+}
+
+.jquery {
+    width: 50%;
+    animation: jquery 2s;
+}
+
+.mysql {
+    width: 40%;
+
+    animation: mysql 2s
+}
+
+.javascript {
+    width: 70%;
+    animation: javascript 2s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes mysql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes jquery {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes seo {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+
+#projects {
+    background-image: none;
+    background-color: saddlebrown;
+
+}
+
+.projects {
+    font-size: 50px;
+}
+
+.projects {
+    margin: 0px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    position: relative;
+}
+
+figure {
+    width: 400px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+
+figure:hover figcaption {
+    margin-top: 202px;
+}
+
+figure:hover img {
+    transform: scale(1.1)
+}
+
+
+figure img {
+    width: 100%;
+    position: absolute;
+    margin: 0px;
+    padding: 0;
+    float: none;
+    transition: all 1s;
+}
+
+figcaption {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    margin-top: -40px;
+    transition: all 1s;
+}
+
+
+
+/*------Contact----*/
+
+* {
+    box-sizing: border-box;
+}
+
+#contact {
+    background-image: none;
+    background-color: saddlebrown;
+    font-family: arial;
+}
+
+.contact {
+    text-align: center;
+    background-color: saddlebrown;
+
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px
+}
+
+label[for="news"] {
+    width: 300px;
+}
+
+:focus {
+    background: lightblue;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 250px;
+    padding: 10px;
+
+}
+
+textarea {
+    width: 250px;
+    padding: 10px;
+    height: 200px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+label[for="msg"] {
+    vertical-align: top
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+}
