@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body id="contact">
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="cv.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="contact"> Contact Form</h1>
+
+    <form>
+        <label for="fn">First Name</label>
+        <input type="text" name="firstname" id="fn" required><br>
+        <br>
+        <label for="ln">Last Name</label>
+        <input type="text" name="lastname" id="ln" required>
+        <br><br>
+        <label for="E">Email</label>
+        <input type="email" name="email" id="E" required><br>
+        <br>
+        <label for="bd"> Your Birthday</label>
+        <input type="date" name="Birthday" id="bd"><br><br>
+
+        <label for="country"> Your country</label>
+        <select name="country" id="country">
+            <option> Choose your Country</option>
+            <option value="Pk">Pakistan</option>
+            <option value="Gr">Germany</option>
+            <option value="Sp">Spain</option>
+            <option value="In">India</option>
+            <option value="It">Italy</option>
+        </select><br><br>
+
+        <label for="msg"> Your Message</label>
+        <textarea name="message" id="msg" placeholder="Write your message here"></textarea><br>
+        <br>
+        <input type="checkbox" name="news" id="news" checked>
+        <label for="news">Send me Reminder</label>
+        <br>
+        <input type="submit" value="Send"><br>
+        <br>
+
+    </form>
+
+
+</body>
+
+</html>
